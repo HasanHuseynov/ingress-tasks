@@ -1,0 +1,16 @@
+
+spring:
+  application:
+    name: request-ms
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: hasan
+    password: hasan123
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        store_data_at_delete: true
+        default_schema: user_ms
+    show-sql: true
